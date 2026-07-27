@@ -1,0 +1,27 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE Configs
+.vscode/
+.idea/
+*.swp
+
+# SQLite Database
+database/*.db
+
+# Large raw datasets (keep repo lightweight)
+dataset/raw/
+dataset/processed_data/
+dataset/*.zip
+
+# Logs & temp
+*.log
+.DS_Store

@@ -1,0 +1,39 @@
+{
+  "champion_baseline": "Random Forest",
+  "best_hyperparameters": {
+    "n_estimators": 200,
+    "min_samples_split": 5,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "max_depth": null
+  },
+  "test_set_metrics": {
+    "Accuracy": 0.9980098042908144,
+    "Precision": 0.9979045208813052,
+    "Recall": 0.9980098042908144,
+    "F1 Score": 0.9979233072720213
+  },
+  "cv_mean_accuracy": 0.998014999049896,
+  "cv_std_accuracy": 0.000147661486983505,
+  "n_features": 47,
+  "n_train_samples": 2017889,
+  "n_test_samples": 504473,
+  "label_mapping": {
+    "BENIGN": 0,
+    "Bot": 1,
+    "DDoS": 2,
+    "DoS GoldenEye": 3,
+    "DoS Hulk": 4,
+    "DoS Slowhttptest": 5,
+    "DoS slowloris": 6,
+    "FTP-Patator": 7,
+    "Heartbleed": 8,
+    "Infiltration": 9,
+    "PortScan": 10,
+    "SSH-Patator": 11,
+    "Web Attack \ufffd Brute Force": 12,
+    "Web Attack \ufffd Sql Injection": 13,
+    "Web Attack \ufffd XSS": 14
+  },
+  "random_state": 42
+}
