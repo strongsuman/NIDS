@@ -257,6 +257,7 @@ elif page == "📡 Live Traffic Monitor":
                 return "background-color: #3b82f6; color: white; font-weight: bold;"
             return "background-color: #10b981; color: white;"
             
+        display_cols = ["id", "formatted_time", "src_ip", "dst_ip", "src_port", "dst_port", "protocol", "attack_type", "severity", "confidence"]
         styler = df_logs[display_cols].style
         if hasattr(styler, "map"):
             styled_df = styler.map(style_severity, subset=["severity"])
